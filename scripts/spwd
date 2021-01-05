@@ -1,0 +1,3 @@
+#!/usr/bin/env zsh
+
+echo -e "\n"export PATH="$(pwd)":\$PATH \# added by helper-scripts project >>"$HOME"/.zshrc
