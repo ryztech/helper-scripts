@@ -6,6 +6,6 @@ Requires ZSH.
 
 `./setup.sh && source ~/.zshrc` to add this project to PATH and export SCRIPTS_PATH variable
 
-`sls` displays all helper scripts and symlinks
+`lss` displays all helper scripts and symlinks
 
-`sln <filename>` add a symlink to PATH
+`lns <filename>` add a symlink to PATH
