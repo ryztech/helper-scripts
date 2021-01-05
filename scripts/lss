@@ -1,0 +1,6 @@
+#!/usr/bin/env zsh
+
+echo helper scripts:
+ls "$SCRIPTS_PATH"/scripts
+echo other scripts in path:
+ls "$SCRIPTS_PATH"/symlinks
