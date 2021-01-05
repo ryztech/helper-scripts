@@ -9,5 +9,3 @@ Requires ZSH.
 `sls` displays all helper scripts and symlinks
 
 `sln <filename>` add a symlink to PATH
-
-`spwd` Add pwd to PATH

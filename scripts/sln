@@ -3,8 +3,8 @@
 set -e
 
 if [ "$#" -eq 1 ] && test -f "$1"; then
-  ln -s "$1" "$SCRIPTS_PATH"/symlinks
+  ln -s "$(pwd)"/"$1" "$SCRIPTS_PATH"/symlinks
   echo Successfully created symlink and added to PATH!
 else
-  echo Please provide a single filename argument!
+  echo Please provide a valid filename argument!
 fi
